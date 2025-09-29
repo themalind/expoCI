@@ -9,8 +9,25 @@ const text: string = '123';
 export default function ModalScreen() {
   return (
     <ThemedView style={styles.container}>
+
+
+
+
+
+
+
       <ThemedText type="title">This is a modal</ThemedText>
       <Link href="/" dismissTo style={styles.link}>
+
+
+
+
+
+
+
+
+
+
         <ThemedText type="link">Go to home screen {text}</ThemedText>
       </Link>
     </ThemedView>
@@ -19,7 +36,13 @@ export default function ModalScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1;
+
+
+
+
+
+
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
